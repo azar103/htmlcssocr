@@ -6,9 +6,12 @@ body {
 }
 
 a {
-    color: #242424;
+    
     text-decoration: none;
     font-size: 1em;
+}
+a:hover:not(.cta){
+    text-decoration: underline;
 }
 span {
     color: #A4B4FC;
@@ -23,23 +26,33 @@ h1{
 p {
     font-size: 1.1em;
 }
-
+em {
+    color: #a5b4fc;
+    font-style: normal;
+  }
 .header, .footer {
     background: #fff
 }
-
-p,ul,h2 {
-    color: #F9F8FF;
-    background: blue
+.header, .footer {
+    color: #242424;
 }
-.nav {
-    background: linear-gradient(90deg, #8E86B5, #ACAEED);
+
+p,li,h2 {
+    color: #F9F8FF;
+}
+.cta {
+    background: linear-gradient(#8E86B5, #ACAEED);
     font-family: 'Montserrat', sans-serif;
     color: white;
     border-radius: 50px;
 }
-
+.cta:hover {
+    background: linear-gradient(#696484, #8788BA);
+}
 .main {
     border-right: 1px solid #A5B4FC;
     border-bottom: 1px solid #A5B4FC;;
+}
+.icone:hover {
+   opacity: 0.5;
 }
