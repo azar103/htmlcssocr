@@ -1,1 +1,1 @@
- Fil rouge du cours HTML CSS Sur OpenClassrooms
+Base de code pour le cours HTML CSS
