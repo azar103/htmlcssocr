@@ -30,7 +30,7 @@ em {
     color: #a5b4fc;
     font-style: normal;
   }
-.header, .footer {
+header, footer {
     background: #fff
 }
 .header, .footer {
